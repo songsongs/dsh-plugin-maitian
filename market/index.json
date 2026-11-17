@@ -1,11 +1,11 @@
 {
   "format": 1,
   "title": {
-    "zh": "麦田插件市场",
-    "en": "Maitian plugins"
+    "zh": "北山新媒体运营工作台插件市场",
+    "en": "Beishan plugins"
   },
   "description": {
-    "zh": "在 DeepSeek Harness 中使用麦田管理多平台内容与数据。",
+    "zh": "在 DeepSeek Harness 中使用北山新媒体运营工作台管理多平台内容与数据。",
     "en": "Use Maitian creator tools in DeepSeek Harness."
   },
   "metadata": {
@@ -30,11 +30,11 @@
     {
       "name": "dsh-plugin-maitian",
       "title": {
-        "zh": "麦田",
-        "en": "Maitian"
+        "zh": "北山新媒体运营工作台",
+        "en": "北山新媒体运营工作台"
       },
       "description": {
-        "zh": "麦田：在 DeepSeek Harness 中查询多平台内容数据、管理分发计划与调用发布工作流",
+        "zh": "北山新媒体运营工作台：在 DeepSeek Harness 中查询多平台内容数据、管理分发计划与调用发布工作流",
         "en": "Query creator metrics, inspect episodes, and manage local Maitian publishing workflows."
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTYiIGZpbGw9IiNmNGU2YzgiLz48cGF0aCBkPSJNMzIgNTJWMTVNMzIgMjlDMTggMjkgMTcgMjEgMTggMTRjMTEgMCAxNCA3IDE0IDE1bTAgMTFDMTggNDAgMTYgMzMgMTcgMjdjMTEgMCAxNSA2IDE1IDEzbTAtMTFjMTQgMCAxNS04IDE0LTE1LTExIDAtMTQgNy0xNCAxNW0wIDExYzE0IDAgMTYtNyAxNS0xMy0xMSAwLTE1IDYtMTUgMTMiIGZpbGw9IiNjNThiMjUiIHN0cm9rZT0iIzcyNTkyMSIgc3Ryb2tlLXdpZHRoPSIyLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPgo=",
@@ -58,12 +58,12 @@
       },
       "versions": [
         {
-          "version": "0.1.0",
-          "publishTimestamp": 1794878195,
+          "version": "0.1.1",
+          "publishTimestamp": 1794881827,
           "source": {
             "type": "git",
             "url": "https://github.com/songsongs/dsh-plugin-maitian",
-            "commit": "c95e2e374ef5762a4f602c5d21ef06616929b04f"
+            "commit": "1acd8ab14062e085dd4882329bbef89a4c716fc4"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.3 <0.3.0"
