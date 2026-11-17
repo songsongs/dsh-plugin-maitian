@@ -1,5 +1,9 @@
 # 麦田 · DeepSeek Harness 插件
 
+> 当前可使用下方 Git 标签安装。npm 版本尚未发布，暂时不要按 npm 包名安装。
+> Harness 自建索引地址：https://raw.githubusercontent.com/songsongs/dsh-plugin-maitian/main/market/index.json
+> 公共市场收录申请：https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/16079（待审核）。
+
 在 DeepSeek Harness 聊天中查询多平台内容数据、查看单期复盘、登记分发计划，并调用本机麦田发布工作流。
 
 这是 Harness 原生 Cordis bundle。它连接已运行的麦田工作台，不是 DeepSeek 官网聊天页面扩展，也不是 Chrome 发布助手的替代品。
