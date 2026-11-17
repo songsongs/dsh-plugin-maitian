@@ -1,10 +1,6 @@
-# 麦田 · DeepSeek Harness 插件
+# 北山新媒体运营工作台
 
-> 当前可使用下方 Git 标签安装。npm 版本尚未发布，暂时不要按 npm 包名安装。
-> Harness 自建索引地址：https://raw.githubusercontent.com/songsongs/dsh-plugin-maitian/main/market/index.json
-> 公共市场收录申请：https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/16079（待审核）。
-
-在 DeepSeek Harness 聊天中查询多平台内容数据、查看单期复盘、登记分发计划，并调用本机麦田发布工作流。
+北山新媒体运营工作台支持在 DeepSeek Harness 聊天中查询多平台内容数据、查看单期复盘、登记分发计划，并调用本机麦田发布工作流。
 
 这是 Harness 原生 Cordis bundle。它连接已运行的麦田工作台，不是 DeepSeek 官网聊天页面扩展，也不是 Chrome 发布助手的替代品。
 
@@ -12,19 +8,21 @@
 
 需要 Node.js ≥ 24.9、DeepSeek Harness `0.2.2-rc.3`（或本包 `engines.dsh` 支持的后续版本），以及运行中的[麦田](https://github.com/CzzzzzzJ/mdldm-maitian)。真实采集、上传还需要配套[发布助手](https://github.com/CzzzzzzJ/mdldm-maitian-publisher)和专用 Chrome 登录态。
 
-从 npm 安装精确版本：
+桌面版可在“插件 → 添加插件”中安装本地 tarball 或 Git 版本地址。桌面版使用独立的 `desktop` profile，命令行的 `web` profile 不会改变桌面版。
+
+当前公开安装源是下方的 Git 标签；npm 尚未发布。npm 发布后可使用：
 
 ```sh
-npx @deepseek-ai/dsh@0.2.2-rc.3 plugin --profile web add dsh-plugin-maitian@0.1.0
+npx @deepseek-ai/dsh@0.2.2-rc.3 plugin --profile web add dsh-plugin-maitian@0.1.1
 ```
 
 也可从本仓库的版本标签安装（纯 JS，无本地构建脚本）：
 
 ```sh
-dsh plugin --profile web add github:songsongs/dsh-plugin-maitian#v0.1.0
+dsh plugin --profile web add github:songsongs/dsh-plugin-maitian#v0.1.1
 ```
 
-有本地 tarball 时，也可执行 `dsh plugin --profile web add ./dsh-plugin-maitian-0.1.0.tgz`。本插件没有安装或构建脚本。发布文件中不包含麦田口令、数据库、平台 Cookie、Chrome 用户目录或本地发布工程。
+有本地 tarball 时，也可执行 `dsh plugin --profile web add ./dsh-plugin-maitian-0.1.1.tgz`。本插件没有安装或构建脚本。发布文件中不包含麦田口令、数据库、平台 Cookie、Chrome 用户目录或本地发布工程。
 
 ## 连接本机麦田
 
@@ -46,7 +44,7 @@ dsh plugin --profile web add github:songsongs/dsh-plugin-maitian#v0.1.0
 
 ## 可以怎么问
 
-- “用麦田看看最近五期在各平台的表现。”
+- “用北山新媒体运营工作台看看最近五期在各平台的表现。”
 - “列出未发布的内容，查看这一期的文案和复盘。”
 - “查看小红书近期的粉丝增长。”
 - “把这个发布工程登记进麦田计划。”
