@@ -1,0 +1,64 @@
+{
+  "name": "dsh-plugin-maitian",
+  "version": "0.1.0",
+  "description": "麦田：在 DeepSeek Harness 中查询多平台内容数据、管理分发计划与调用发布工作流",
+  "author": "songsongs",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "commands.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "maitian",
+    "social-media",
+    "creator-tools"
+  ],
+  "engines": {
+    "node": ">=24.9.0",
+    "dsh": ">=0.2.2-rc.3 <0.3.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "~3.19.0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": ">=0.2.2-rc.3 <0.3.0",
+    "@deepseek-ai/dsh-error": ">=0.2.2-rc.3 <0.3.0"
+  },
+  "devDependencies": {
+    "@deepseek-ai/dsh-tools": "0.2.2-rc.3",
+    "@deepseek-ai/dsh-error": "0.2.2-rc.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songsongs/dsh-plugin-maitian.git"
+  },
+  "homepage": "https://github.com/songsongs/dsh-plugin-maitian#readme",
+  "bugs": {
+    "url": "https://github.com/songsongs/dsh-plugin-maitian/issues"
+  }
+}

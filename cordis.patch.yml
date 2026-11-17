@@ -1,0 +1,4 @@
+- insert:
+    - id: maitian
+      name: dsh-plugin-maitian
+      config: {}
